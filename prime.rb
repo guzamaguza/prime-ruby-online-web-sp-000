@@ -11,11 +11,11 @@ def prime?(num)
   end
 
   outArray = []
-  zero2nine.any? do |integ| 
-    if num%integ == 0 
-      return true 
-    else 
-      return false 
+  zero2nine.any? do |integ|
+    if num%integ == 0
+      return true
+    else
+      return false
   end
 
 end
