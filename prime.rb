@@ -13,10 +13,9 @@ def prime?(num)
 
 n = 2
 while n <= 100
-  if num%n == 0
-    if num == n
-      break
-    end
+  if num == n
+    break
+  elsif num%n == 0
     return false
   end
   n = n+1
