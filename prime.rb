@@ -20,5 +20,6 @@ def prime?(num)
    end
 
 if outArray.include? 'false' return true
+end
 
 end
