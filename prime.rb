@@ -13,9 +13,9 @@ def prime?(num)
   outArray = []
   zero2nine.each do |integ|
     if num%integ == 0
-      return true
-    else
       return false
-  end
-end
+    else
+      return true
+    end
+   end
 end
