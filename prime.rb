@@ -10,8 +10,8 @@ def prime?(num)
       return false
   end
 
-  zero2nine.each do |int|
-    if num%int == 0
+  zero2nine.each do |iter|
+    if num%iter == 0
       return false
     else
       return true
