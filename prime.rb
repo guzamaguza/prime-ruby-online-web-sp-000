@@ -13,5 +13,4 @@ def prime?(num)
   outArray = []
   zero2nine.any? { |integ| num%integ == 0 }
 
-  end
 end
