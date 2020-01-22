@@ -12,11 +12,11 @@ def prime?(num)
   end
 
 n = 2
-while n<100
+while n <= 100
   if num%n == 0
     return false
   end
-  n++
+  n = n+1
 end
    return true
 
