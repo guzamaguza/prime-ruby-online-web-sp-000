@@ -19,6 +19,6 @@ def prime?(num)
     end
    end
 
-   outArray.include? { |word| word == 'false' }
+if outArray.include? 'false' return true 
 
 end
