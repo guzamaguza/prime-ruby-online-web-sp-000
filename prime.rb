@@ -9,7 +9,7 @@ def prime?(num)
   elsif num == 4 || num == 6 || num == 8 || num == 9
       return false
   end
-  
+
   zero2nine.each do |int|
   if num%int == 0
       return false
