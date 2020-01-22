@@ -13,7 +13,7 @@ def prime?(num)
 
 n = 2
 while n <= 100
-  if num%n == 0 
+  if num%n == 0
     if num == n
       break
     end
