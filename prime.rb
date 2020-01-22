@@ -11,8 +11,8 @@ def prime?(num)
         return false
     elsif (num%int) == 0
         return false
-    else 
-        return true 
+    else
+        return true
     end
   end
 end
