@@ -11,10 +11,12 @@ def prime?(num)
       return false
   end
 
-do n = 2; n<100;n++
+n = 2
+while n<100
   if num%n == 0
     return false
   end
+  n++
 end
    return true
 
