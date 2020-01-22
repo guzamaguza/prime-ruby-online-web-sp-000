@@ -19,6 +19,6 @@ def prime?(num)
     end
    end
 
-if outArray.include? 'false' return true 
+if outArray.include? 'false' return true
 
 end
