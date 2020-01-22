@@ -11,7 +11,7 @@ def prime?(num)
       return false
   end
 
-for n = 2; n<100;n++
+do n = 2; n<100;n++ 
   if num%n == 0
     return false
   end
