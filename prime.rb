@@ -13,9 +13,12 @@ def prime?(num)
   outArray = []
   zero2nine.each do |integ|
     if num%integ == 0
-      return false
+      outArray.push(false)
     else
-      return true
+      outArray.push(true)
     end
    end
+
+   outArray.include? { |word| word == false }
+
 end
