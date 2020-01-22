@@ -2,7 +2,7 @@
 
 def prime?(num)
   #zero2nine = [2, 3, 4, 5, 6, 7, 8, 9,]
-  zero2nine = [2...100]
+  #zero2nine = [2...100]
   if num <= 1
       return false
   elsif num == 2 || num == 3 || num == 5 || num == 7
@@ -11,13 +11,11 @@ def prime?(num)
       return false
   end
 
-  outArray = []
-  zero2nine.each do |integ|
-    if num%integ == 0
-      return false
-    end
-   end
-
+for n = 2; n<100;n++ 
+  if num%n == 0
+    return false
+  end
+end
    return true
 
 end
