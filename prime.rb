@@ -11,6 +11,6 @@ def prime?(num)
   end
 
   outArray = []
-  zero2nine.any? { |integ| num%integ == 0 }
+  zero2nine.any? { |integ| num%integ != 0 }
 
 end
