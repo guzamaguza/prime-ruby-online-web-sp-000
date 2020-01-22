@@ -10,7 +10,8 @@ def prime?(num)
       return false
   end
 
-  zero2nine.each do |iter|
+  outArray = []
+  zero2nine.any? do |iter|
     if num%iter == 0
       return false
     else
