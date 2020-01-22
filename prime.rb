@@ -13,14 +13,10 @@ def prime?(num)
   outArray = []
   zero2nine.each do |integ|
     if num%integ == 0
-      outArray.push('false')
-    else
-      outArray.push('true')
+      outArray.push(false)
     end
    end
 
-if outArray.include? 'false' 
-  return true
-end
+   return true
 
 end
